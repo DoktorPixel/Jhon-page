@@ -1,34 +1,19 @@
-.header-nav-container {
+.header-nav-list {
     display: flex;
     justify-content: center;
 }
 
 .header-nav-item {
-    margin: 0 35px;
+    margin-left: 64px;
 
 }
 
-.header-nav {
-    margin: 35px 170px 35px 0px;
-}
-
-.logo {
-    margin: 35px 35px 35px 170px;
-}
-
-.heder-container {
+.heder-list {
     display: flex;
     justify-content: space-between;
+    margin: 35px 170px
 }
 
 .header-nav-item {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-
-}
-.header-nav-container
-{
-    white-space:nowrap;
-    justify-content: space-between;
 }
