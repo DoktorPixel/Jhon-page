@@ -15,40 +15,41 @@
   </head>
 
   <body>
-    <div class="page-wrapper">
-      <header class="heder-list">
-        <a class="logo" href="./index.html">
-          <img src="./images/logo.svg" alt="LOGO"
-        /></a>
-        <nav class="header-nav">
-          <ul class="header-nav-list">
-            <li class="header-nav-item">
-              <a href="./index.html">John's home page</a>
-            </li>
-            <li class="header-nav-item"><a href="./blog.html">Blog</a></li>
-            <li class="header-nav-item"><a href="./work.html">Work</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <section class="hero-section">
-          <div class="hero-section-list">
-            <h1 class="hero-title">
-              <span>Hi, I'm John!</span> <br />
-              <span>Creative Technologist</span>
-            </h1>
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <button class="button">
-              <a href="./work.html" class="button-link">Check my Work</a>
-            </button>
-          </div>
-          <img src="./images/hero-image.jpg" alt="John's photo" width="243px" />
-        </section>
-        <section class="posts-section">
+    <header class="heder-list">
+      <a class="logo" href="./index.html">
+        <img src="./images/logo.svg" alt="LOGO"
+      /></a>
+      <nav class="header-nav">
+        <ul class="header-nav-list">
+          <li class="header-nav-item">
+            <a class="current" href="./index.html">John's home page</a>
+          </li>
+          <li class="header-nav-item"><a href="./blog.html">Blog</a></li>
+          <li class="header-nav-item"><a href="./work.html">Work</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section page-wrapper">
+        <div class="hero-section-list">
+          <h1 class="hero-title">
+            <span>Hi, I'm John!</span> <br />
+            <span>Creative Technologist</span>
+          </h1>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+          <button class="button">
+            <a href="./work.html" class="button-link">Check my Work</a>
+          </button>
+        </div>
+        <img class="john-photo" src="./images/hero-image.jpg" alt="John's photo" width="243px" />
+      </section>
+      <section class="posts-wrapper">
+        <div class="posts-section page-wrapper">
           <div class="posts">
             <h2>Recent Posts</h2>
             <a class="works-link" href="./work.html">View all</a>
@@ -84,81 +85,81 @@
               </article>
             </li>
           </ul>
-        </section>
-        <section class="features">
-          <div class="posts">
-            <h2>Featured Work</h2>
-            <a class="works-link" href="./work.html">View all</a>
-          </div>
+        </div>
+      </section>
+      <section class="features page-wrapper">
+        <div class="posts">
+          <h2>Featured Work</h2>
+          <a class="works-link" href="./work.html">View all</a>
+        </div>
 
-          <ul class="features-work">
-            <li class="features-work-item">
-              <img
-                class="features-img"
-                src="./images/dashboard.jpg"
-                alt="Designing Dashboards"
-                width="275px"
-              />
-              <div class="features-work-info">
-                <h3 class="post-title">Designing Dashboards</h3>
-                <p>
-                  <span class="features-years">2020</span>
-                  <span class="post-info">Dashboard</span>
-                </p>
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </p>
-              </div>
-            </li>
-            <li class="features-work-item">
-              <img
-                class="features-img"
-                src="./images/vibrant-portrait.jpg"
-                alt="Vibrant Portraits"
-                width="275px"
-              />
-              <div class="features-work-info">
-                <h3 class="post-title">Vibrant Portraits</h3>
-                <p>
-                  <span class="features-years">2018</span>
-                  <span class="post-info">Illustration</span>
-                </p>
-                <p>
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
-                  Exercitation veniam consequat sunt nostrud amet.
-                </p>
-              </div>
-            </li>
-          </ul>
-        </section>
-      </main>
-      <footer class="footer">
-        <address>
-          <ul class="footer-list">
-            <li>
-              <a href="https://www.figma.com/"
-                ><img src="./images/figma.svg" alt="figma"
-              /></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/"
-                ><img src="./images/twitter.svg" alt="twitter"
-              /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/"
-                ><img src="./images/instagram.svg" alt="instagram"
-              /></a>
-            </li>
-          </ul>
-          <span class="copirating">
-            &copy; 2022 Your Name. All rights reserved.</span
-          >
-        </address>
-      </footer>
-    </div>
+        <ul class="features-work">
+          <li class="features-work-item">
+            <img
+              class="features-img"
+              src="./images/dashboard.jpg"
+              alt="Designing Dashboards"
+              width="275px"
+            />
+            <div class="features-work-info">
+              <h3 class="post-title">Designing Dashboards</h3>
+              <p>
+                <span class="features-years">2020</span>
+                <span class="post-info">Dashboard</span>
+              </p>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </li>
+          <li class="features-work-item">
+            <img
+              class="features-img"
+              src="./images/vibrant-portrait.jpg"
+              alt="Vibrant Portraits"
+              width="275px"
+            />
+            <div class="features-work-info">
+              <h3 class="post-title">Vibrant Portraits</h3>
+              <p>
+                <span class="features-years">2018</span>
+                <span class="post-info">Illustration</span>
+              </p>
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <address>
+        <ul class="footer-list">
+          <li>
+            <a href="https://www.figma.com/"
+              ><img src="./images/figma.svg" alt="figma"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/"
+              ><img src="./images/twitter.svg" alt="twitter"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/"
+              ><img src="./images/instagram.svg" alt="instagram"
+            /></a>
+          </li>
+        </ul>
+        <span class="copirating">
+          &copy; 2022 Your Name. All rights reserved.</span
+        >
+      </address>
+    </footer>
   </body>
 </html>
