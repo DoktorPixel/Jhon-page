@@ -1,0 +1,142 @@
+button {
+    border: none;
+    width: 178px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: var(--color-button);
+    border-radius: 4px;
+}
+
+.button-link {
+    color: white;
+}
+
+.hero-section {
+    display: flex;
+    margin: 0 auto
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 55px;
+    margin-bottom: 24px;
+}
+
+.hero-section-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 58px;
+}
+
+.john-photo {
+    margin-left: 100px;
+    margin-bottom: 84px;
+}
+
+.hero-section-list p {
+    margin-bottom: 24px;
+}
+
+.posts-wrapper {
+    background: var(--color-background-color);
+
+}
+
+.posts-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.works-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--color-view);
+}
+
+.post {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.posts-article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+    background: white;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.post-title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 16px;
+}
+
+.post-info {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-secondary);
+}
+
+.post-text {
+    padding-top: 20px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px;
+}
+
+.features-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.features-work-item {
+    display: flex;
+    box-shadow: 0px 2px 0px var(--color-box-shadow);
+    padding: 24px 0px;
+}
+
+.features-work-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 0px;
+    margin-left: 32px;
+}
+
+.features-years {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+    background-color: var(--color-background-color-secondary);
+    padding: 4px 16px;
+    border-radius: 8px;
+    margin-right: 24px;
+}
+
+.features-post {
+    padding-top: 24px;
+    padding-right: 8px;
+}
